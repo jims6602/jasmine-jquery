@@ -1,3 +1,10 @@
+# References
+*[bittersweetryan/jasmine-jquery](https://github.com/bittersweetryan/jasmine-jquery)    
+*[Loading Fixtures - slide show](https://bittersweetryan.github.io/jasmine-presentation/#slide-71)   
+*[Jasmine : Fixture could not be loaded](https://stackoverflow.com/questions/35498059/jasmine-fixture-could-not-be-loaded)      
+
+
+
 # jasmine-jquery
 
 jasmine-jquery provides two extensions for [Jasmine](http://pivotal.github.com/jasmine/) JavaScript Testing Framework:
