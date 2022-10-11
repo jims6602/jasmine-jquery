@@ -7,6 +7,8 @@ describe("jasmine.Fixtures", function() {
   }
   var appendFixturesContainerToDom = function() {
     $('body').append('<div id="' + jasmine.getFixtures().containerId + '">old content</div>')
+	
+	//alert( jasmine.getFixtures().containerId );
   }
 
   beforeEach(function() {
@@ -362,12 +364,12 @@ describe("jasmine.Fixtures using real AJAX call", function() {
   describe("when fixture file exists", function() {
     var fixtureUrl = "real_non_mocked_fixture.html"
 
-/*
+
     it("should load content of fixture file", function() {
       var fixtureContent = jasmine.getFixtures().read(fixtureUrl)
       expect(fixtureContent).toEqual('<div id="real_non_mocked_fixture"></div>')
     })
-	*/
+	
   })
 
   /* TODO : start throwing again
